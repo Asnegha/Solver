@@ -75,6 +75,14 @@ optional = false
 python-versions = ">=3.7"
 
 [[package]]
+name = "numpy"
+version = "1.25.1"
+description = "Fundamental package for array computing in Python"
+category = "main"
+optional = false
+python-versions = ">=3.9"
+
+[[package]]
 name = "werkzeug"
 version = "2.3.6"
 description = "The comprehensive WSGI web application library."
@@ -91,7 +99,7 @@ watchdog = ["watchdog (>=2.3)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "d7a65ba75d9fd1d70398a76955d93d28129b8c09a3b56e10fef71ce427090c8b"
+content-hash = "8da602c76c99f8d65946cee05ecffd472d613b0565dd2b8bec142745e58e2395"
 
 [metadata.files]
 blinker = []
@@ -101,4 +109,5 @@ flask = []
 itsdangerous = []
 jinja2 = []
 markupsafe = []
+numpy = []
 werkzeug = []
